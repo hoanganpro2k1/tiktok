@@ -8,7 +8,7 @@ import Profile from '~/pages/Profile';
 import Upload from '~/pages/Upload';
 import Search from '~/pages/Search';
 
-// Không cần đăng nhập vẩm vào được
+// Không cần đăng nhập bẩm vào được
 const publicRoutes = [
     { path: "/", component: Home },
     { path: "/following", component: Following },
